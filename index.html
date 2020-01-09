@@ -6,16 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     
-
+    <!-- Link for bootstrap style file -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
-    
+    <!-- Link for my style file -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Link for Font-Awesome icons  -->
     <script src="https://kit.fontawesome.com/1dd2d64489.js" crossorigin="anonymous"></script>
-
+    <!-- Link for moment.js javascript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- Link for jQuery javascript file -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
-    <!-- <script src="script.js"></script> -->
+    <!-- Link for my javascript file -->
+    <script src="script.js"></script>
 
 </head>
 <body>
@@ -40,21 +42,26 @@
             </div>
     </header>
 
-    <div class="container" style="margin-top: 50px;">
+    <div class="container">
 
-        <div class="row">
+        <div class="row" style="text-align: center;">
 
-            <div id="mainTop" class="col-md-12"style="height: 100px; text-align: center;">
-            
+            <div id="dateCurBtn" class="col-md-3">
+                <button id="curDayBtn">Go to Today</button>
             </div>
 
+            <div id="dateContainer1" class="col-md-1"></div>
+
+            <div id="dateContainer2" class="col-md-4" style="height: 50px;"></div>
+
+            <div id="dateContainer3" class="col-md-1"></div>
 
         </div>
 
         <div class="row">
 
             <div id="main" class="col-md-12" style="height: 400px;">
-                <h1>Main Body</h1>
+
             </div>
 
         </div>
