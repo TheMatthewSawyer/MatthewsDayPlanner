@@ -1,0 +1,25 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+button {
+    margin-left: 5px;
+    margin-top: 50px;
+    height: 50px;
+    width: 125px;
+    border-radius: 12px 12px 0px 0px;
+    border: none;
+    background-color: rgba(250, 250, 210, 0.50);
+}
+
+button:focus {
+    outline: none;
+}
+
+header {
+    background-color: lightsteelblue;
+}
+
+#plannerAdd {
+    margin-left: 50px;
+}
